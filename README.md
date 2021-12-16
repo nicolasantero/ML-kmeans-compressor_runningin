@@ -32,7 +32,7 @@ Método de aprendizado não supervisionado para detecção do estado de amaciame
    ```sh
    pip install requirements.txt
    ```
-
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Executando os notebooks
