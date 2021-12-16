@@ -6,11 +6,12 @@
 
 Método de aprendizado não supervisionado para detecção do estado de amaciamento em compressores herméticos alternativos para refrigeração. O algoritmo KMeans foi usado para agrupar dados de ensaios com compressores novos e já operados, buscando grandezas cuja divisão se adequasse à esperada devido ao amaciamento. O método "Elbow" foi utilizado para definir 3 como o número de grupos para agrupamento, e 120 combinações de parâmetros de pré-processamento foram avaliadas, buscando padrões que indiquem a detecção do fenômeno.
 
-## Getting Started
+## Começando
 
 ### Pré-requisitos
 
 * Anaconda
+* Git
 
 
 
