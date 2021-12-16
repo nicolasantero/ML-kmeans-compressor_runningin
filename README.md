@@ -1,3 +1,2 @@
-# my data science environment
+# Código desenvolvido durante a bolsa de Iniciação científica no LIAE
 
-This is a README helper
