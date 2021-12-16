@@ -33,7 +33,7 @@ Método de aprendizado não supervisionado para detecção do estado de amaciame
    pip install requirements.txt
    ```
    
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Início</a>)</p>
 
 ### Executando os notebooks
 ```
@@ -45,4 +45,4 @@ jupyter notebook
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Início</a>)</p>
