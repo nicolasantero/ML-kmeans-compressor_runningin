@@ -36,11 +36,8 @@ Método de aprendizado não supervisionado para detecção do estado de amaciame
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Executando os notebooks
-
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+jupyter notebook
 ```
 
 <!-- LICENSE -->
