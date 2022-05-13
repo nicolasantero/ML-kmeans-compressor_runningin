@@ -8,8 +8,6 @@ Data exploration and application of an unsupervised learning method to aid in th
 
 The KMeans algorithm was used to group test data with samples of new and already operated compressors, searching for magnitudes whose division matched the expected running-in condition. The "Elbow" method was used to define 3 as the number of groups for clustering, and 120 combinations of preprocessing parameters were evaluated, looking for patterns that indicate detection of the phenomenon.
 
-Translated with www.DeepL.com/Translator (free version)
-
 ## Getting Started
 
 ### Pre-requisites
