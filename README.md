@@ -1,44 +1,46 @@
-# Aprendizado não supervisionado para detecção de amaciamento em compressores herméticos alternativos
+# Unsupervised learning for [running-in](https://en.wikipedia.org/wiki/Break-in_(mechanical_run-in)) detection in hermetic alternative compressors
 
 
 
-## Descrição
+## Description
 
-Exploração de dados e aplicação de método de aprendizado não supervisionado com objetivo de auxiliar na detecção do estado de amaciamento em compressores herméticos alternativos para refrigeração. 
+Data exploration and application of an unsupervised learning method to aid in the detection of the running-in state in hermetic alternative refrigerant compressors. 
 
-O algoritmo KMeans foi usado para agrupar dados de ensaios com compressores novos e já operados, buscando grandezas cuja divisão se adequasse à esperada devido ao amaciamento. O método "Elbow" foi utilizado para definir 3 como o número de grupos para agrupamento, e 120 combinações de parâmetros de pré-processamento foram avaliadas, buscando padrões que indiquem a detecção do fenômeno.
+The KMeans algorithm was used to group test data with samples of new and already operated compressors, searching for magnitudes whose division matched the expected running-in condition. The "Elbow" method was used to define 3 as the number of groups for clustering, and 120 combinations of preprocessing parameters were evaluated, looking for patterns that indicate detection of the phenomenon.
 
-## Começando
+Translated with www.DeepL.com/Translator (free version)
 
-### Pré-requisitos
+## Getting Started
+
+### Pre-requisites
 
 * Anaconda
 * Git
 
 
 
-### Instalação
+### Installation
 
-1. Clone o repositório
+1. Clone the repository
    ```sh
    git clone https://github.com/nicolasantero/compressor-breakin-kmeans-clustering.git
    ```
-2. Crie um ambiente virtual (opcional)
+2. Create a virtual environment (optional)
    ```sh
    conda create -n name
    ```
-3. Ativar ambiente virtual (opcional) 
+3. Activate Virtual Environment (optional) 
    ```sh
    conda activate name
    ```
- 4. Instalar os pacotes
+ 4. Installing Packages
    ```sh
    pip install requirements.txt
    ```
    
 <p align="right">(<a href="#top">Início</a>)</p>
 
-### Executando os notebooks
+### Running the notebooks
 ```
 jupyter notebook
 ```
